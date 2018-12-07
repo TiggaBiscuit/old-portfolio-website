@@ -1,0 +1,89 @@
+/* Work Page Styling Start */
+
+/* Generic Stuff Start */
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 2.5em;
+    text-align: justify;
+}
+
+/* Generic Stuff End */
+
+/* Page Width Start */
+
+.page-width {
+    padding-top: 50px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Page Width End */
+
+/* Page Top Start */
+
+.page-top {
+    padding: 100px;
+}   
+
+/* Page Top End */
+
+/* Page Wrapper Start */
+
+.page-wrapper {
+    padding: 15px;
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+/* Page Wrapper End */
+
+/* Expanding Container Start */
+
+.container {
+    width: 100%;
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container .content {
+    display: none;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.inner-container {
+    padding-left: 30px;
+}
+
+.down-arrow {
+    padding-left: 10px;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Expanding Container End */
+
+/* Image Modal Start */
+
+.thumbnail {
+    width: 640px;
+    height: auto;
+  }
+
+/* Image Modal End */

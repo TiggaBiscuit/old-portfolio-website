@@ -1,0 +1,170 @@
+/* Index Page Start */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+/* Typewriter Text Start */
+
+.var-highlight {
+    color: #C0AD60;
+}
+
+.string-highlight {
+    color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter {
+    font-size: 2em;
+    margin: 0;
+    font-family: "Courier New";
+}
+
+#typewriter:after {
+    content: "|";
+    animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Typewriter Text End */
+
+
+/* Page Width Start */
+
+.page-width {
+    padding-top: 170px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Page Width End */
+
+
+/* Page Wrapper Start */
+
+.page-wrapper {
+    padding: 15px;
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+/* Page Wrapper End */
+
+
+/* Terminal Start */
+
+.shadow-effect {
+    -webkit-box-shadow: 0 10px 8px -6px #777;
+    -moz-box-shadow: 0 10px 8px -6px #777;
+    box-shadow: 0 10px 8px -6px #777;
+}
+
+
+.elem {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDD;
+  }
+  .elem:first-child {
+    margin-left: 10px;
+  }
+  
+  .elem.elem-close {
+    background-color: #FF5D5B;
+    border-color: #EE4644;
+  }
+  
+  .elem.elem-minimize {
+    background-color: #FFBB46;
+    border-color: #F1AD39;
+  }
+  
+  .elem.elem-fullscreen {
+    background-color: #00C74F;
+    border-color: #01B849;
+  }
+
+  .terminal-section {
+    position: relative;
+    display: block;
+  }
+  
+  .terminal-outer {
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Raleway, sans-serif;
+    color: #FFFFFF;
+    text-shadow: none;
+  }
+  
+  .terminal-outer .terminal-container .terminal-header {
+    background-color: #C5C5C5;
+  }
+  
+  .terminal-outer .terminal-container .terminal-header .terminal-controls {
+    display: inline-block;
+  }
+  
+  .terminal-outer .terminal-container .terminal-header .terminal-controls .elem {
+    float: left;
+  }
+  
+  .terminal-outer .terminal-container .terminal-body {
+    background-color: #303030;
+    padding: 10px;
+  }
+  
+  .terminal-outer .terminal-container .terminal-body .terminal-body-inner {
+    min-height: 517px;
+    padding: 10px;
+  }
+  
+  .terminal-outer .terminal-container .terminal-body .terminal-body-inner p {
+    margin: 0 0 4px;
+  }
+  
+  .terminal-outer .terminal-container .terminal-body .terminal-body-inner .terminal-user {
+    margin-right: 10px;
+  }
+
+/* Terminal End */
+
+/* Index Page Styling End */
